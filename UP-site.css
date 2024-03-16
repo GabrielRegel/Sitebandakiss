@@ -1,0 +1,146 @@
+body{
+    background-color: #0f0f0f;/*vai mudar a cor de fundo para um "azul" da tematica do civico militar*/
+    color: white;/*vai mudar a cor das letras para branco*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*vai mudar a fonte das letras*/
+    text-align: left;/*vai centralizar a escrita do texto*/
+    font-size: 110%;/*vai aumentar o tamanho da escrita do texto*/
+}
+
+.titulo{
+    text-align: center;/*vai centralizar o titulo do site*/
+    background-color: #ff1f1c;/*vai deixar a linha do titulo verde na tematica do civico militar*/
+}
+
+.kissimagem {
+    position: relative;/*vai fazer eu poder escolher a altura da imagem*/
+}
+
+.kissimagem img {
+    position: absolute; /*vai fazer a imagem ignorar o fluxo do texto (se nao colocar a imagem vai ficar em baixo do texto)*/
+    top: -230px; /* altura da imagem no site*/
+    right: 2%; /* distancia da margem do site*/
+    width: 300px; /* vai definir o tamanho da imagem */
+    height: auto; /* o auto vai acompanhar o tamanho da imagem */
+    display: flex;/* vai fazer a imagem ficar na frente do texto*/
+    border: 3px solid silver;/*adiciona uma borda de 3 pixel da cor prata*/
+    
+}
+.genesimmons {
+    display: flex; /* Torna o container flexível */
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.genesimmons img {
+    width: 200px; /* Reduzindo um pouco a largura da imagem */
+    height: auto;
+    margin-right: 10px; /* Adiciona um espaço entre a imagem e o texto */
+}
+
+.bio-genesimmons {
+    color: white;
+    font-size: 120%;
+    z-index: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.paulstanley {
+    display: flex; /* Torna o container flexível */
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.paulstanley img {
+    width: 200px; /* Reduzindo um pouco a largura da imagem */
+    height: auto;
+    margin-right: 10px; /* Adiciona um espaço entre a imagem e o texto */
+}
+
+.bio-paulstanley {
+        color: white;
+    font-size: 120%;
+    z-index: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.acefrehle {
+    display: flex; /* Torna o container flexível */
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.acefrehle img {
+    width: 200px; /* Reduzindo um pouco a largura da imagem */
+    height: auto;
+    margin-right: 10px; /* Adiciona um espaço entre a imagem e o texto */
+}
+
+.bio-acefrehle {
+    color: white;
+    font-size: 120%;
+    z-index: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.petercriss {
+    display: flex; /* Torna o container flexível */
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.petercriss img {
+    width: 200px; /* Reduzindo um pouco a largura da imagem */
+    height: auto;
+    margin-right: 10px; /* Adiciona um espaço entre a imagem e o texto */
+}
+
+.bio-petercriss {
+        color: white;
+    font-size: 120%;
+    z-index: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.topmusic {
+    color: white;
+    font-size: 120%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.spotify  {
+    align-items: center; /* Centraliza os itens verticalmente */
+
+
+}
+.spotify img {
+    height: 50px;
+    width: auto;
+
+}
+.instagram  {
+    align-items: center; /* Centraliza os itens verticalmente */
+
+}
+.instagram img {
+    height: 50px;
+    width: auto;
+}
+
+.facebook{
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+.facebook img {
+    height: 50px;
+    width: auto;
+}
+.redessociais {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.social-links {
+    display: flex;/*vai fazer os links ficar um na frente do outro*/
+}
+
+.social-links > div {
+    margin-right: 25px; /* Vai adicionar um espaço entre os links*/
+}
+.tagsnaousada {
+    color: orange;
+}
